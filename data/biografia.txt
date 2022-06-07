@@ -1,0 +1,7 @@
+https://firebasestorage.googleapis.com/v0/b/uasd-36a30.appspot.com/o/perfil.jpeg?alt=media&token=09c76065-3aa7-468d-916d-95c97b3e56b9
+Mi nombre es Cristian Castro Astacio. Tengo 21 años y soy estudiante de Informática en la Universidad Autónoma de Santo Domingo. Actualmente estoy cursando mi sexto semestre y si todo sigue bien ya sólo me faltarán 8 materias para graduarme. Mi índice es de 93.8.
+Cuando estaba en el Liceo descubrí la programación y desde entonces me he estado preparando para ser un Ingeniero de Software, esa es mi meta y es lo que me da las fuerzas para cada día dar lo mejor de mi en mis clases de la Universidad y mis estudios autodidácticos.
+En estos años de trabajo duro he lorado dominar las siguientes tecnologías: HTML, CSS, JavaScript, React, Firebase, SQL, C++.
+También tengo dominio del Idioma Ingles a nivel Intermedio y sigo estudiando, pues mi objetivo es llegar a avanzado.
+A lo largo de mis estudios he realizado varios proyectos personales de código, los cuales están disponible en mi GitHub (<a href="https://github.com/cristian-ast" target="_blanck">https://github.com/cristian-ast</a>), pero el que más me enorgullece es el siguiente:
+UASD Planner es una simple Aplicación Web para tener organizado tus deberes Universitarios. Para conocer más ir a <a href="https://github.com/cristian-ast/Web_App_UASD_Planner" target="_blanck">https://github.com/cristian-ast/Web_App_UASD_Planner</a>.

@@ -1,0 +1,403 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+p, h3, label {
+    /* text-shadow: rgb(182, 182, 182) 0.1em 0.1em 0.2em; */
+    line-height: 25px;
+}
+
+span {
+    scroll-margin: 150px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    position: fixed;
+    box-shadow: 5px 3px 3px rgb(206, 206, 206, 0.5);
+    background-color: #f2fcfe;
+    z-index: 5;
+}
+
+.header_img {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.container_nav {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.img_cabecera {
+    width: 60px;
+    height: 75px;
+    margin: 10px;
+    margin-right: 25px;
+}
+
+.titulos h4, h5 {
+    text-shadow: rgb(182, 182, 182) 0.1em 0.1em 0.2em;
+    margin: 2px;
+    font-weight: 400;
+}
+
+.titulos h4 {
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.container_nav_options {
+    display: flex;
+    align-items: center;
+}
+
+.boton {
+    margin: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    appearance: button;
+    background-color: #e8fcff;
+    border: 1px solid #e8fcff;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #000000;
+    cursor: pointer;
+    font-family: Graphik,-apple-system,system-ui,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+    font-size: 14px;
+    line-height: 1.15;
+    overflow: visible;
+    padding: 12px 16px;
+    position: relative;
+    text-align: center;
+    text-transform: none;
+    transition: all 80ms ease-in-out;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: fit-content;
+    box-shadow: 4px 2px 2px rgba(182, 182, 182, 0.4);
+}
+
+.boton:disabled {
+    opacity: .5;
+}
+
+.boton:focus {
+    outline: 0;
+}
+
+.boton:hover {
+    background-color: #cbf8ff;
+    border-color: #cbf8ff;
+}
+
+.boton:active {
+    background-color: #cbf8ff;
+    border-color: #cbf8ff;
+}
+
+.contenedor_biografia {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.biografia_cuerpo {
+    width: 800px;
+    text-align: justify;
+    line-height: 25px;
+}
+
+.img_perfil {
+    width: 200px;
+    margin:10px auto;
+    margin-bottom: 30px;
+    display:block;
+    border-radius: 10px;
+    box-shadow: 5px 3px 3px rgb(168, 168, 168);
+}
+
+.biografia_cuerpo p, ul {
+    margin: 30px;
+}
+
+.img_proyecto_personal {
+    width: 83%;
+	margin: 30px;
+    border-radius: 20px;
+    box-shadow: 5px 3px 3px rgb(168, 168, 168);
+    margin-bottom: 60px;
+}
+
+.footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(44, 44, 44);
+    color: white;
+}
+
+.cuerpo_footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.cuerpo_footer div {
+    display: flex;
+    align-items: center;
+}
+
+.cuerpo_footer div img {
+    width: 24px;
+    height: 24px;
+}
+
+.cuerpo_footer div a {
+    color: white;
+    margin: 15px;
+    text-decoration: none;
+}
+
+.contenedor_blogs {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blogs_cuerpo {
+    width: 800px;
+    text-align: justify;
+}
+
+.cabecera_blog {
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.img_blog_logo {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.entrada_de_blog {
+    color: black;
+    text-decoration: none;
+    box-shadow: 5px 3px 3px rgb(168, 168, 168);
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border: 0.1px solid rgb(211, 211, 211);
+}
+
+.entrada_de_blog:hover {
+    background-color: #f3f3f3;
+}
+
+.datos_previos p {
+    line-height: normal;
+    font-size: 14px;
+    margin: 10px;
+}
+
+.imagen_blog {
+    width: 80px;
+    height: 80px;
+    margin-right: 30px;
+    border-radius: 8px;
+}
+
+.titulo_vista {
+    font-size: 18px;
+}
+
+.img_y_titulo {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.img_blog {
+    border-radius: 10px;
+    box-shadow: 5px 3px 3px rgb(168, 168, 168);
+}
+
+.parrafos_blog p {
+    margin: 30px;
+}
+
+.boton_submit {
+    background-color: #e8fcff;
+    border: 1px solid #e8fcff;
+    cursor: pointer;
+}
+
+.boton_submit:focus {
+    outline: 0;
+}
+
+.boton_submit:hover {
+    background-color: #cbf8ff;
+    border-color: #cbf8ff;
+}
+
+.boton_submit:active {
+    background-color: #cbf8ff;
+    border-color: #cbf8ff;
+}
+
+.h1_dashboard {
+    font-size: 20px;
+    margin: 30px;
+}
+
+.h2_dashboard {
+    font-size: 16px;
+    margin: 30px;
+}
+
+.contenedor_configuraciones {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contenedor_configuraciones button {
+    margin: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 5px 3px 3px rgb(211, 211, 211);
+}
+
+.entrada_editar_blog {
+    color: black;
+    text-decoration: none;
+    box-shadow: 5px 3px 3px rgb(168, 168, 168);
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 0.1px solid rgb(211, 211, 211);
+}
+
+.options a img {
+    width: 25px;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.options a img:hover {
+    background-color: #f3f3f3;
+}
+
+.options a {
+    cursor: pointer;
+}
+
+.formulario {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.div_edict {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.alert {
+    color: red;
+}
+
+.formulario div input, textarea {
+    padding: 10px;
+    border-radius: 10px;
+    border: 0.5px solid rgb(202, 202, 202);
+    box-shadow: 5px 3px 3px rgb(211, 211, 211);
+    background-color: #f8f8f8;
+}
+
+.div_options {
+    display: flex;
+    justify-content: center;
+}
+
+.div_options input {
+    cursor: pointer;
+    margin: 10px;
+}
+
+.div_options input:hover {
+    background-color: rgb(214, 214, 214);
+}
+
+#navegacion {
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+#navegacion > a {
+    font-size: 14px;
+    font-weight: bolder;
+    background-color: white;
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+#navegacion > button:hover {
+    cursor: pointer;
+    background-color: rgb(187, 199, 211);
+}
+
+.contenedorPregunta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.contenedorMensaje {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 150px;
+}
+
+.top_responsible {
+    margin-top: 120px;
+}
+
+@media screen and (max-width: 731px) {
+    .top_responsible {
+        margin-top: 180px;
+    }
+}
